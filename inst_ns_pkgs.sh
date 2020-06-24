@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -v
 
 pacman -S --needed --noconfirm \
     switch-dev \
@@ -59,4 +59,5 @@ pacman -S --needed --noconfirm \
     switch-tinyxml2 \
     switch-wslay \
     switch-zlib \
-    switch-zziplib
+    switch-zziplib \
+    devkitARM

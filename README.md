@@ -2,8 +2,8 @@
 
 ## 文件说明
 - devkitpro.sh -- devkitpro环境变量设置文件
-- inst_pkgs.sh -- 安装编译PC版程序所需包
-- inst_ns_pkgs -- 安装编译switch版程序所需包
+- inst_pkgs.sh -- 安装必要的msys和mingw包
+- inst_ns_pkgs -- 安装必要devkitpro包
 
 ## msys2/mingw64编译环境安装步骤
 1. 从 https://www.msys2.org/ 下载msys2安装器进行安装
